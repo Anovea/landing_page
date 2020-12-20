@@ -1,0 +1,185 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+body, html
+{
+    font-size: 24px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(153, 204, 255);
+    height: 130px;
+}
+
+.logo_image
+{
+    padding-right: 300px;
+}
+
+.telephone
+{
+    padding-left: 300px;
+}
+
+.name1_and_name2
+{
+    position: absolute;
+}
+
+.name1, .name2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.name2
+{
+    font-size: 44px;
+}
+
+main
+{
+    height: 100%;
+    background-color: rgb(0, 255, 153);
+    padding: 0px 15%;
+}
+
+.text
+{
+    padding: 40px 0px;
+}
+.rucovodstvo_text
+{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 44px;
+}
+
+.rucovodstvo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.administration img
+{
+    padding-bottom: 40px;
+}
+
+.content_glava p, .content p
+{
+    padding: 10px 0px;
+}
+
+.content, .content2
+{
+    border-bottom: 1px solid blue;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.rekvizit
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+/* .rekvizit1
+{
+    padding: 20px 0px;
+} */
+
+.size28
+{
+    font-size: 28px;
+}
+
+.size28_weight
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text_weight
+{
+    font-weight: bold;
+}
+
+.content1, .content2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.subscribe
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe p
+{
+    padding: 20px 0px;
+}
+
+.subscribe input
+{
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.subscribe button
+{
+    width: 312px;
+    height: 52px;
+    border: 0px;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subscribe button:hover
+{
+    background-color: rgb(234, 30, 30);
+    box-shadow: 0px 0px 15px 5px white;
+}
+
+.returned
+{
+    display: flex;
+    position: fixed;
+    bottom: 5px;
+    right: 10px; 
+    z-index: 100;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 204, 255);
+    height: 80px;
+}
